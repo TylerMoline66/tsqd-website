@@ -10,9 +10,10 @@
 
     <script src="https://kit.fontawesome.com/206c038801.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="../CSS/default.css">
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="../CSS/mobile.css">
-    <link rel="stylesheet" href="../CSS/default.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +21,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    
 
   </head>
   <body>
@@ -44,6 +49,9 @@
          <li class="nav-link">
            <a href="../HTML/ourWork.html">Our Work</a>
           </li>
+          <li class="nav-link">
+            <a href="../HTML/contactUs.html">FAQ</a>
+           </li>
          <li class="nav-link">
            <a href="../HTML/contactUs.html">Contact us</a>
           </li>
@@ -54,18 +62,33 @@
            <a href="#"><i class="fab fa-instagram"></i></a>
           </li>
          <li class="nav-link">
-           <a href="#"><i class="fab fa-linkedin"></i></a>
+           <a href="https://www.homeadvisor.com/rated.TSquaredConstruction.86193704.html"><i class="fab fa-linkedin"></i></a>
           </li>
        </ul>
       </div>
      </nav>
 
      <!-- HEADER -->
+     <!-- <div class="social-container">
+      <ul class="socials">
+        <li class="nav-link">
+       <a href="#"><i class="fab fa-facebook fa-10x"></i></a>
+     </li>
+    <li class="nav-link">
+      <a href="#"><i class="fab fa-instagram fa-2xl"></i></a>
+     </li>
+    <li class="nav-link">
+      <a href="https://www.homeadvisor.com/rated.TSquaredConstruction.86193704.html"><i class="fab fa-linkedin fa-2xl"></i></a>
+     </li>
+      </ul>
+
+     </div> -->
+   
      <header class="">
-      <div class=" header-img-div">
-        <img class="header-img-1" src="../Assests/josh-olalde-X1P1_EDNnok-unsplash.jpg" alt="Construction photo">
-        <img class="header-img-2" src="../Assests/milivoj-kuhar-Te48TPzdcU8-unsplash.jpg" alt="">
-        <img class="header-img-3" src="../Assests/greyson-joralemon-A1g0oeX29ec-unsplash.jpg" alt="">
+      <div class=" header-img-div fadein">
+        <img id="f3" class="header-img-1" src="../Assests/josh-olalde-X1P1_EDNnok-unsplash.jpg" alt="Construction photo">
+        <img id="f2" class="header-img-2" src="../Assests/milivoj-kuhar-Te48TPzdcU8-unsplash.jpg" alt="">
+        <img id="f1" class="header-img-3" src="../Assests/greyson-joralemon-A1g0oeX29ec-unsplash.jpg" alt="">
       </div>
      </header>
 
@@ -75,11 +98,15 @@
         <img class="logo" src="../Assests/T-Squared Logomark.png" alt="Tsqd logo">
        </div>
        <div class="intro-info-words">
-        <h1><span>T</span><span>-</span><span>S</span><span>q</span><span>u</span><span>a</span><span>r</span><span>e</span><span>d</span> <span>Construction</span></h1>
+        <h1>
+          <span>T-Squared</span>
+          <span>Construction</span>
+        </h1>
        </div>
        <p>Serving Utah county's construction needs for <br> 30 years, were here to help with any project!</p>
      </section>
      <section class="owners">
+       <h2>A little about us</h2>
       <div class="the-owners">
         <div class="owner-two">
           <img src="../Assests/Ethan.JPG" alt="Owner two">
@@ -89,9 +116,69 @@
           </div>
         </div>
         </div>
+        <div class="default-btn learn-more-btn">
+          <a href="../HTML/aboutUs.html">Learn more</a>
+        </div>
+      </section>
 
-     </section>
-  
+        <!--OUR WORK SECTION  -->
+        <section class="our-work-section">
+          <h2>We pride ourselves with quality work</h2>
+          <p>From Barn doors to full bathroom remodels, basement finishes to new homes we got you covered!</p>
+          <div class="our-work">
+            <div class="work-section-one">
+              <img src="../Assests/barn door.JPG" alt="barn door">
+            </div>
+            <div class="work-section-two">
+              <img src="../Assests/full bath.jpeg" alt="bathroom">
+            </div>
+            <div class="work-section-three">
+              <img src="../Assests/brewer bath.JPG" alt="bathroom">
+            </div>
+          </div>
+          <div class="default-btn see-more-btn">
+            <a href="../HTML/ourWork.html">See more of our work</a>
+          </div>
+        </section>
+
+        <!-- CONTACT US SECTION -->
+        <section class="contact-us-main">
+          <div class="floating-questions-container">
+            <h2 class="question-one">"I have so many questions?!"</h2>
+            <h2 class="question-two">"How much will it really cost me?"</h2>
+            <h2 class="question-three">"What about the fluctuation of construction prices?"</h2>
+            <h2 class="question-four">"How long does something like this normally take?"</h2>
+            <h2 class="question-five">"Can you remodel just my bathroom?"</h2>
+            <h2 class="question-six">"Is it possible to add a walkout?"</h2>
+            <h2 class="question-seven">"How do you know if this is a load bearing wall?"</h2>
+            <h2 class="question-eight">"Have you done anything like this before?"</h2>
+          </div>
+          <div class="contact-btn-and-info">
+            <p>We know there are lots of questions about the construction process, and we are here to help you along the way! <br> If you have any questions take a look at our FAQ page! if you'd like to reach out to us go ahead and go to our contact page!</p>
+            <div class="default-btn faq-btn">
+              <a href="../HTML/contactUs.html">Frequently Asked Questions</a>
+            </div>
+            <div class="default-btn contact-btn">
+              <a href="../HTML/contactUs.html">Contact us</a>
+            </div>
+          </div>
+        </section>
+
+        <hr>
+
+        <!-- FOOTER -->
+
+        <footer>
+          <div class="final-selectors">
+            <a href="../HTML/index.html">Home</a>
+            <a href="../HTML/aboutUs.html">About us</a>
+            <a href="../HTML/ourWork.html">Our Work</a>
+            <a href="../HTML/contactUs.html">Contact Us</a>
+          </div>
+          <div class="tmwd">
+            <h2>Tyler Moline Web Design 2022</h2>
+          </div>
+        </footer>
     
     <script src="../index.js" async defer></script>
   </body>
