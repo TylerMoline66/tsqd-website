@@ -74,7 +74,6 @@
   text-transform: uppercase;
   margin-right: 40px;
   line-height: 20px;
-  /* text-shadow: 0px 3px 2px rgb(38 38 38); */
   text-shadow: 0px 5px 4px rgb(0 0 0);
   transition: ease-in-out 1s;
 }
@@ -88,13 +87,6 @@
 .fa-instagram,
 .fa-linkedin {
   font-size: var(--size-40);
-}
-
-.sticky .nav-link a {
-  /* color: black; */
-}
-.sticky .navbar-brand img {
-  /* filter: none; */
 }
 
 /* HEADER */
@@ -181,62 +173,6 @@ header {
 #f3 {
   -webkit-animation-delay: -8s;
 }
-
-/* .header-img-1 {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 1000px;
-  opacity: 100%;
-  margin-right: 0;
-  margin-left: -9px;
-  -webkit-transition: 4s ease-in-out;
-  -moz-transition: 4s ease-in-out;
-  -o-transition: 4s ease-in-out;
-  transition: 4s ease-in-out;
-}
-.header-img-1:hover {
-  opacity: 0%;
-  transition-delay: 3s;
-}
-
-.header-img-2 {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 1000px;
-  opacity: 100%;
-  margin-right: 0;
-  margin-left: -9px;
-  -webkit-transition: 4s ease-in-out;
-  -moz-transition: 4s ease-in-out;
-  -o-transition: 4s ease-in-out;
-  transition: 4s ease-in-out;
-}
-.header-img-2:hover {
-  opacity: 0%;
-  transition-delay: 3s;
-}
-
-.header-img-3 {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 1000px;
-  opacity: 100%;
-  margin-right: 0;
-  margin-left: -9px;
-  -webkit-transition: 4s ease-out;
-  -moz-transition: 4s ease-out;
-  -o-transition: 4s ease-out;
-  transition: 4s ease-in-out;
-}
-
-.header-img-3:hover {
-  filter: inherit;
-  opacity: 0%;
-  transition-delay: 1.5s;
-} */
 
 /* INTRO/ABOUT US */
 .about-us {
@@ -526,4 +462,187 @@ footer {
 .tmwd {
   margin-top: var(--size-100);
   font-family: "Gloria Hallelujah", cursive;
+}
+
+/* ABOUT US PAGE  */
+/* WHO WE ARE SECTION */
+.who-we-are {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.who-we-are h1 {
+  font-size: 100px;
+  text-shadow: 0px 5px 4px rgb(0 0 0);
+}
+
+.image-and-info-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-and-info-wrapper img {
+  width: 200px;
+  height: 200px;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+}
+
+/* REVIEWS SECTION */
+.review-section {
+  width: 100%;
+  margin-top: var(--size-200);
+}
+
+.review-section-intro {
+  text-align: center;
+  margin-top: var(--size-200);
+  margin-bottom: var(--size-200);
+}
+
+.review-section-intro h2 {
+  text-shadow: 0px 5px 4px rgb(0 0 0);
+  font-size: 80px;
+}
+
+.reviews {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-img-left {
+  width: 300px;
+  font-size: var(--size-200);
+  margin-right: 50px;
+}
+
+.review-img-right {
+  width: 300px;
+  font-size: var(--size-200);
+  margin-left: 50px;
+}
+
+.review-left-default {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.review-right-default {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.review-left-default img {
+  width: 300px;
+  margin-right: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px var(--tsqd-blue);
+}
+
+.review-right-default img {
+  width: 300px;
+  margin-left: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgb(253, 252, 252);
+}
+
+.review-left-default h2,
+.review-right-default h2 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  text-shadow: 0px 5px 4px rgb(0 0 0);
+}
+
+.review-left-default span,
+.review-right-default span {
+  font-size: 10px;
+}
+
+.review-left-default p,
+.review-right-default p {
+  line-height: 23px;
+  font-size: 20px;
+}
+
+.review-left-info {
+  margin-right: 200px;
+}
+
+.review-right-info {
+  margin-left: 200px;
+  text-align: right;
+}
+
+h4 a {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--tsqd-blue);
+}
+
+/* OUR WORK PAGE */
+/*  OUR WORK GALLERY */
+
+.our-work-main {
+  text-align: center;
+  font-size: 20px;
+}
+
+.our-work-main h2 {
+  text-shadow: 0px 5px 4px rgb(0 0 0);
+}
+
+.our-work-intro {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.our-work-intro h1 {
+  font-size: 50px;
+  text-shadow: 0px 5px 4px rgb(0 0 0);
+}
+
+.work-gallery-default {
+  margin: auto;
+}
+
+.gallery-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-right: -50px;
+  padding: 50px;
+}
+
+.gallery-default img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: -50px;
+  box-shadow: 0px 0px 30px rgba(2, 2, 2);
+  transition: ease-in-out 0.5s;
+  transition-delay: 0.3s;
+  display: inline-block;
+}
+
+.gallery-default img:hover {
+  border-radius: 10px;
+  z-index: 100;
+  transform: scale(1.7);
+}
+
+.our-work-final-info {
+  margin-bottom: 100px;
 }
