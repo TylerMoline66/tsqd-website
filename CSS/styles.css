@@ -231,7 +231,7 @@ header {
 
 .the-owners {
   margin: auto;
-  width: 600px;
+  width: 850px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -461,13 +461,23 @@ footer {
 /* WHO WE ARE SECTION */
 .who-we-are {
   text-align: center;
-  width: 90%;
+  width: 65%;
   margin: auto;
+  line-height: 30px;
 }
 
 .who-we-are h1 {
   font-size: 100px;
   text-shadow: 0px 5px 4px rgb(0 0 0);
+}
+
+.who-we-are h3 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.who-we-are p {
+  font-size: 20px;
 }
 
 .image-and-info-wrapper {
@@ -481,8 +491,42 @@ footer {
 .image-and-info-wrapper img {
   width: 200px;
   height: 200px;
-  /* margin-left: 100px; */
-  /* margin-right: 100px; */
+}
+
+/* SOCIALS */
+.big-social-icons {
+  margin-top: 300px;
+  margin-bottom: 300px;
+  text-align: center;
+}
+
+.big-social-icons h2 {
+  font-size: 60px;
+  text-shadow: 0px 5px 4px rgb(0 0 0);
+}
+
+.our-socials {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.our-socials .fab,
+.our-socials a {
+  font-size: 200px;
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+
+.our-socials .fab:hover,
+.our-socials a:hover {
+  color: var(--tsqd-blue);
+}
+
+.our-socials .fab:active,
+.our-socials a:active {
+  transform: scale(1);
 }
 
 /* REVIEWS SECTION */
@@ -495,6 +539,7 @@ footer {
   text-align: center;
   margin-top: var(--size-200);
   margin-bottom: var(--size-200);
+  font-size: 20px;
 }
 
 .review-section-intro h2 {
@@ -615,8 +660,9 @@ h4 a {
   align-items: center;
   margin-top: 100px;
   margin-bottom: 200px;
-  margin-right: -50px;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
 }
 
 .gallery-default img {
@@ -638,6 +684,7 @@ h4 a {
 
 .before-1-section {
   margin-right: 0;
+  padding-left: 0px;
 }
 
 .before-and-after-container {
@@ -698,7 +745,14 @@ h4 a {
   width: 60%;
   margin: auto;
 }
-/* Style the buttons that are used to open and close the faq-page body */
+
+.faq-one a,
+.faq-two a,
+.faq-six a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
 .faq-page {
   border-radius: 5px;
   color: var(--white);
@@ -716,12 +770,11 @@ h4 a {
   padding: auto;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .faq-page:hover {
   background-color: #444;
 }
-/* Style the faq-page panel. Note: hidden by default */
+
 .faq-body {
   padding: 0 18px;
   display: none;
@@ -730,13 +783,132 @@ h4 a {
 }
 .faq-page:after {
   content: "\02795";
-  /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
   color: #777;
   float: right;
   margin-left: 5px;
 }
 .active:after {
   content: "\2796";
-  /* Unicode character for "minus" sign (-) */
+}
+
+/* CONTACT US PAGE */
+/* CONTACT INFO SECTION */
+/* CONTACT FORM */
+.contact-us-info {
+  text-align: center;
+  margin-bottom: 200px;
+}
+.contact-us-info h1 {
+  font-size: 40px;
+  text-shadow: 0px 5px 4px rgb(0 0 0);
+}
+
+.business-card {
+  margin: auto;
+  margin-top: 100px;
+  width: 500px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: var(--tsqd-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Architects Daughter", cursive;
+  box-shadow: 0px 0px 30px rgba(2, 2, 2);
+}
+
+.business-card img {
+  width: 200px;
+}
+
+.form-section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.contact-form-intro {
+  text-align: center;
+}
+
+.form-style {
+  margin: 10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 14px;
+}
+
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+
+.form-style label {
+  margin: 0 0 3px 0;
+  padding: 0px;
+  display: block;
+  font-weight: bold;
+}
+
+.form-style .required {
+  color: red;
+}
+
+.form-style input[type="submit"],
+.form-style input[type="reset"] {
+  background: var(--tsqd-blue);
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+
+.form-style input[type="submit"]:hover,
+.form-style input[type="reset"]:hover {
+  background: var(--tsqd-blue);
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.form-style .field-textarea {
+  height: 100px;
+}
+
+.form-style input[type="text"],
+.form-style input[type="email"],
+textarea {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #bebebe;
+  padding: 7px;
+  margin: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.form-style .long {
+  width: 100%;
+}
+
+.form-style input[type="text"]:focus,
+.form-style input[type="email"]:focus,
+.form-style textarea:focus {
+  -moz-box-shadow: 0 0 8px var(--tsqd-blue);
+  -webkit-box-shadow: 0 0 8px var(--tsqd-blue);
+  box-shadow: 0 0 8px var(--tsqd-blue);
+  border: 1px solid var(--tsqd-blue);
+}
+
+.error {
+  color: #d8000c;
+  background-color: #ffbaba;
 }
