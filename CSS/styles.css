@@ -323,6 +323,7 @@ header {
 
 .question-one:hover {
   transform: translateX(15px);
+  color: var(--tsqd-blue);
 }
 
 .question-two {
@@ -336,6 +337,7 @@ header {
 
 .question-two:hover {
   transform: translateX(25px);
+  color: var(--tsqd-blue);
 }
 
 .question-three {
@@ -349,6 +351,7 @@ header {
 
 .question-three:hover {
   transform: translateY(10px);
+  color: var(--tsqd-blue);
 }
 
 .question-four {
@@ -362,6 +365,7 @@ header {
 
 .question-four:hover {
   transform: scale(1.5);
+  color: var(--tsqd-blue);
 }
 
 .question-five {
@@ -375,6 +379,7 @@ header {
 
 .question-five:hover {
   transform: translateX(-10px);
+  color: var(--tsqd-blue);
 }
 
 .question-six {
@@ -389,6 +394,7 @@ header {
 .question-six:hover {
   transform: translateX(5px);
   transform: translateY(20px);
+  color: var(--tsqd-blue);
 }
 
 .question-seven {
@@ -401,7 +407,8 @@ header {
 }
 
 .question-seven:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
+  color: var(--tsqd-blue);
 }
 
 .question-eight {
@@ -415,6 +422,7 @@ header {
 
 .question-eight:hover {
   transform: translateX(15px);
+  color: var(--tsqd-blue);
 }
 
 .contact-btn-and-info {
@@ -469,6 +477,7 @@ footer {
 .who-we-are h1 {
   font-size: 100px;
   text-shadow: 0px 5px 4px rgb(0 0 0);
+  line-height: 100px;
 }
 
 .who-we-are h3 {
@@ -515,13 +524,13 @@ footer {
 .our-socials .fab,
 .our-socials a {
   font-size: 200px;
-  color: white;
+  color: var(--tsqd-blue);
   transition: ease-in-out 0.5s;
 }
 
 .our-socials .fab:hover,
 .our-socials a:hover {
-  color: var(--tsqd-blue);
+  color: var(--white);
 }
 
 .our-socials .fab:active,
@@ -723,6 +732,24 @@ h4 a {
   background-size: cover;
 }
 
+.before-and-after-container-3 {
+  width: 1000px;
+  height: 700px;
+  border-radius: 10px;
+  background-image: url("../Assests/before-3.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  transition: ease-in-out 3s;
+  margin-right: 0;
+  box-shadow: 0px 0px 30px rgba(2, 2, 2);
+}
+
+.before-and-after-container-3:hover {
+  background-image: url("../Assests/after-3.jpeg");
+  background-size: cover;
+}
+
 .our-work-final-info {
   margin-bottom: 100px;
 }
@@ -815,8 +842,16 @@ h4 a {
   justify-content: space-evenly;
   text-align: left;
   font-size: 20px;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Dosis", sans-serif;
   box-shadow: 0px 0px 30px rgba(2, 2, 2);
+}
+
+.business-card a {
+  color: var(--white);
+}
+
+.business-card a:hover {
+  text-decoration: underline;
 }
 
 .business-card img {
