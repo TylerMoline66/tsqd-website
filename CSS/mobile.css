@@ -321,12 +321,12 @@
   }
 
   .intro-info-words {
-    left: 15%;
+    left: 10%;
     top: 20rem;
   }
 
   .intro-info-words h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .about-us-logo {
@@ -371,6 +371,7 @@
 
   .our-work-section p {
     font-size: var(--size-15);
+    margin-bottom: 10px;
   }
 
   .work-section-one img {
