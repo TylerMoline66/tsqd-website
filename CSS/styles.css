@@ -15,11 +15,6 @@
   color: blue;
 }
 
-.navbar.sticky .navbar-toggler span,
-.navbar.sticky .navbar-brand {
-  color: #666;
-}
-
 .navbar-toggler {
   position: absolute;
   right: var(--size-20);
@@ -31,7 +26,7 @@
 
 .navbar-toggler span {
   color: var(--white);
-  font-size: var(--size-20);
+  font-size: var(--size-40);
   cursor: pointer;
   pointer-events: none;
 }
@@ -44,7 +39,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  transition: ease-in-out 2s;
 }
+
+.navbar-social-links {
+  display: flex;
+}
+
 .navbar .container {
   display: flex;
   align-items: center;
@@ -449,18 +450,25 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  margin-top: var(--size-100);
 }
 
 .final-selectors a {
   color: var(--white);
+  z-index: 5;
 }
 
 .final-selectors a:hover {
   text-decoration: underline;
 }
 
+.final-logo img {
+  width: 100%;
+  opacity: 50%;
+  margin-top: -187px;
+}
+
 .tmwd {
-  margin-top: var(--size-100);
   font-family: "Gloria Hallelujah", cursive;
 }
 
@@ -598,7 +606,6 @@ footer {
 
 .review-right-default img {
   width: var(--size-300);
-  margin-left: var(--size-100);
   border-radius: 50%;
   box-shadow: 0px 0px 15px rgb(253, 252, 252);
 }
@@ -706,6 +713,7 @@ h4 a {
   background-attachment: scroll;
   background-blend-mode: ;
   transition: ease-in-out 3s;
+  -webkit-transition: ease-in-out 2s;
   box-shadow: 0px 0px 30px rgba(2, 2, 2);
 }
 
@@ -744,6 +752,7 @@ h4 a {
   padding: var(--size-20) 3.75rem;
   text-align: center;
   margin-bottom: var(--size-100);
+  text-shadow: 0px 5px 4px rgb(0 0 0);
 }
 .faq-container {
   display: flex;

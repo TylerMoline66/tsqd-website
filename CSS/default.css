@@ -100,3 +100,8 @@ body {
     left: 0;
   }
 }
+
+.invisible {
+  display: none;
+  font-size: var(--size-15);
+}
