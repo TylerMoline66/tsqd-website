@@ -312,6 +312,11 @@
 }
 
 @media screen and (max-width: 425px) {
+  .navbar-brand img {
+    width: 65px;
+    height: 65px;
+  }
+
   .about-us {
     margin-top: 28rem;
   }
