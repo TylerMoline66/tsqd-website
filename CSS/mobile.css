@@ -1,6 +1,6 @@
 @media screen and (max-width: 1440px) {
   .navbar-brand {
-    width: 80%;
+    width: 60%;
   }
   .our-work img {
     width: 300px;
@@ -14,8 +14,8 @@
   }
 
   .gallery-default img {
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -196,7 +196,7 @@
 
   .navbar-social-links {
     display: flex;
-    justify-content: end;
+    float: right;
     margin: 10px 0;
   }
 
@@ -412,7 +412,7 @@
   .question-one {
     left: -17%;
     top: 1%;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .question-two {
@@ -422,17 +422,17 @@
 
   .question-three {
     top: 19%;
-    font-size: var(--size-30);
+    font-size: var(--size-20);
   }
 
   .question-four {
     left: -4%;
-    top: 1%;
+    top: 4%;
   }
 
   .question-five {
-    left: 7%;
-    top: -21%;
+    left: 2%;
+    top: -17%;
     font-size: 20px;
   }
 
